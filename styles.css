@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: Roboto;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    margin: 0%;
+}
+a {
+    color: white;
+    text-decoration: none;
+  }
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1F2937;
+    align-items: center;
+    padding: 20px;
+}
+
+.button {
+    background-color: blue;
+    color: white;
+    width: 100px;
+    height: 100px;
+}
+
+ul {
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+}
+
+li {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+li:hover {
+    color: #f46a38;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.midsection {
+    height: 500px;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h4 {
+    margin: 0%;
+    color: #f9faf8;
+}
+
+.left-text {
+    color:white;
+    font-size: 48px;
+    font-weight: 900px;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin-left: 200px;
+}
+
+
+.hero-secondary-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    width: 70px;
+    padding: 5px;
+}
+
+
+button:hover {
+    opacity: 0.9;
+    color: #f46a38;
+}
+
+button:active {
+    background-color: #3882f6;
+    box-shadow: 1px 3px #c4c4c4;
+    transform: translateY(2px);
+}
+
+
+.right-image {
+    height: 220px;
+    width: 500px;
+    background-color: rgb(162, 162, 162);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.belowmid {
+    height: 500px;
+    text-align: center;
+}
+
+.second-heading {
+    font-size: 36px;
+    font-weight: 900px;
+    color: #1F2937;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+.individual-class {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+}
+
+.image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: min-content;
+}
+
+.lower-mid {
+    height: 400px;
+    background-color: #e5e7eb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+    margin-bottom: 0%;
+}
+
+
+.quote-source {
+    margin-left: 500px;
+    padding: 0%;
+    font-weight: bold;
+}
+
+.lower {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 750px;
+    height: 150px;
+    border-radius: 10px;
+    background-color: #3882f6;
+}
+
+.cta-text {
+    color: #f9faf8;
+}
+
+.button2 button {
+    border: 1px solid white;
+    padding: 2px 10px;
+  }
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    background-color: #1F2937;
+    color: #f9faf8;
+}
